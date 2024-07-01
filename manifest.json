@@ -1,0 +1,29 @@
+{
+  "name": "ReelsControl",
+  "description": "Control Instagram reel playback just like any other video",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+ "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "options.js"
+      ],
+      "run_at": "document_start"
+    }
+  ], 
+  "host_permissions": [
+    "https://www.instagram.com/*",
+    "http://www.instagram.com/*"
+  ]
+}
