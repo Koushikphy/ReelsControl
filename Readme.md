@@ -2,6 +2,10 @@
 A chrome/firefox extension to control Instagram reels playback just like any other video
 
 
+https://github.com/Koushikphy/ReelsControl/assets/43264301/5d3e4052-8cbb-4aac-8c86-c14183b34dfe
+
+
+
 ### Installation
 #### Chrome
 Download this repo then,   
